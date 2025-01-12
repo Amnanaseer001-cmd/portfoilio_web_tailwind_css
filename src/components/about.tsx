@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import downloadCV from "./downloadbtn";
+import Image from "next/image";
 export default function About() {
   const route = useRouter();
   return (

@@ -8,7 +8,7 @@ export default function Expertise() {
           </h1>
 
           <p className="mt-6 ml-2 text-[18px] text-gray-300 font-semibold font-sans">
-            I'm proficient in the below Technologies
+            I&apos; m proficient in the below Technologies
           </p>
         </div>
         <div>
