@@ -1,7 +1,7 @@
 "use client";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import downloadCV from "./downloadbtn";
-import Image from "next/image";
 export default function About() {
   const route = useRouter();
   return (
@@ -14,9 +14,14 @@ export default function About() {
           <p className="mt-4 ml-20 text-1xl text-gray-300 font-semibold font-sans">
             Get to know me
           </p>
-          <img
-            src="main-img3.jpg"
-            className="w-[420px] h-[470px] ml-20 mt-10 rounded-lg border-[1px] border-gray-400 p-1 transition-transform duration-100 hover:scale-110"
+
+          <Image
+            src="/main-img3.jpg"
+            alt="Description of the image"
+            layout="responsive"
+            width={420}
+            height={470}
+            className="ml-20 mt-10 rounded-lg border-[1px] border-gray-400 p-1 transition-transform duration-100 hover:scale-110"
           />
         </div>
         <div className="mt-48 mr-16">
@@ -24,11 +29,11 @@ export default function About() {
             Who am i ?
           </p>
           <p className="mt-2 text-[30px] text-white font-bold font-sans">
-            I'm Amna Naseer, a visual UX / UI
+            I&apos;m Amna Naseer, a visual UX / UI
             <br /> Designer and Web Developer
           </p>
           <p className="mt-4 leading-8 text-[16px] text-gray-300">
-            I'm Amna Naseer, a web developer skilled in HTML, CSS, JavaScript{" "}
+            I&apos;m Amna Naseer, a web developer skilled in HTML, CSS, JavaScript{" "}
             <br /> and TypeScript.I'm currently expanding my expertise by
             learning Next.js <br /> and building dynamic project Pursuing a
             Bachelor in Computer Science <br /> I have hands-on experience with

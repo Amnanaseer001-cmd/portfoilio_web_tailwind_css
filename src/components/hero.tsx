@@ -1,7 +1,5 @@
-import Sidebar from "./sidebar";
 import TypingText from "./typewriter";
 import TypeName from "./typetext";
-import Image from "next/image";
 
 export default function Hero() {
   return (
